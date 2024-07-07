@@ -159,13 +159,14 @@
         android:layout_width="362dp"
         android:layout_height="49dp"
         app:layout_constraintBottom_toTopOf="@+id/qu2"
+        app:layout_constraintEnd_toEndOf="@+id/qu1"
+        app:layout_constraintStart_toStartOf="@+id/qu1"
         app:layout_constraintTop_toBottomOf="@+id/qu1"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="49dp">
+        app:layout_constraintVertical_bias="1.0">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="26dp"
+            android:layout_width="343dp"
+            android:layout_height="49dp"
             android:hint="answer" />
     </com.google.android.material.textfield.TextInputLayout>
 

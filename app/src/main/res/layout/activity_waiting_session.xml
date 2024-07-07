@@ -11,10 +11,11 @@
         android:id="@+id/rvwelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="48dp"
         android:text="WELL DONE!!"
         android:textSize="32dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,10 +23,11 @@
         android:id="@+id/rvReceive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="64dp"
         android:text="YOU WILL RECEIVE"
         android:textSize="32dp"
         app:layout_constraintEnd_toEndOf="@+id/rvwelcome"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="@+id/rvwelcome"
         app:layout_constraintTop_toBottomOf="@+id/rvwelcome" />
 
@@ -33,10 +35,11 @@
         android:id="@+id/rvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="52dp"
         android:text="RESULT IN"
         android:textSize="32dp"
         app:layout_constraintEnd_toEndOf="@+id/rvReceive"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/rvReceive"
         app:layout_constraintTop_toBottomOf="@+id/rvReceive" />
 
@@ -44,10 +47,11 @@
         android:id="@+id/rvHour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="64dp"
         android:text="24 HRS"
         android:textSize="32dp"
         app:layout_constraintEnd_toEndOf="@+id/rvResult"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/rvResult"
         app:layout_constraintTop_toBottomOf="@+id/rvResult" />
 

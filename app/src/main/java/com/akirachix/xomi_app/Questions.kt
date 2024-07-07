@@ -20,7 +20,7 @@ class Questions : AppCompatActivity() {
 
         val submit = findViewById<Button>(R.id.btSubmit)
         submit.setOnClickListener {
-            val intent = Intent(this, Topics::class.java)
+            val intent = Intent(this,Waiting_Session::class.java)
             startActivity(intent)
         }
     }
