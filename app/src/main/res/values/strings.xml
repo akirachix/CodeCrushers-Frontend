@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">xomi-app</string>
+    <string name="subjects">Subjects</string>
+    <string name="view">view</string>
+    <string name="science">SCIENCE</string>
+    <string name="topic">TOPIC:</string>
+    <string name="plants">PLANTS</string>
+
+    <string name="text_with_paragraphs">
+        Plants are living things that can be found in our environment./n
+        Plants can manufacture their food by themselves making use of water and energy
+        from sunlight through a process called photo they thesis. Plants take
+        in carbon dioxide produced by animal and give off oxygen
+        that is needed by man for survival
+        Parts of a plant
+        The main parts of a plant include the following:-
+        Leaves,Stem,Root and Flower
+    </string>
+
+    <string name="text2_with_paragraphs">
+        Plants are living things that can be found in our environment./n
+        Plants can manufacture their food by themselves making use of water and energy
+        from sunlight through a process called photo they thesis. Plants take
+        in carbon dioxide produced by animal and give off oxygen
+        that is needed by man for survival
+        Parts of a plant
+        The main parts of a plant include the following:-
+        Leaves,Stem,Root and Flower
+    </string>
+    <string name="hint">hint</string>
+    <string name="answer">hint</string>
+    <string name="answer2">hint</string>
+    <string name="answer3">hint</string>
+    <string name="answer4">hint</string>
+    <string name="select">select</string>
+    <string name="back">Back</string>
+
 </resources>
