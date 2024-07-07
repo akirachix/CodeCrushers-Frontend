@@ -18,7 +18,7 @@
             android:id="@+id/tvIntro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="144dp"
+            android:layout_marginStart="160dp"
             android:layout_marginTop="12dp"
             android:text="@string/subjects"
             android:textSize="32dp"
@@ -26,16 +26,16 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="175dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvIntro"
-        app:srcCompat="@drawable/science" />
+            android:id="@+id/imageView"
+            android:layout_width="175dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvIntro"
+            app:srcCompat="@drawable/science" />
 
-    <ImageView
+        <ImageView
         android:id="@+id/imageView2"
         android:layout_width="175dp"
         android:layout_height="162dp"
@@ -65,17 +65,17 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/social" />
 
-    <Button
-        android:id="@+id/btView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="56dp"
-        android:text="@string/view"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/tvIntro" />
+        <Button
+            android:id="@+id/btView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/view"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/tvIntro" />
 
-    <Button
+        <Button
         android:id="@+id/btView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -109,11 +109,11 @@
             android:id="@+id/btBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="628dp"
+            android:layout_marginBottom="644dp"
             android:text="Back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.95"
             app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
