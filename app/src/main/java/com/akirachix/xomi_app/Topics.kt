@@ -53,7 +53,5 @@ class Topics : AppCompatActivity() {
             val intent = Intent(this,Topics::class.java)
             startActivity(intent)
         }
-
-
     }
 }

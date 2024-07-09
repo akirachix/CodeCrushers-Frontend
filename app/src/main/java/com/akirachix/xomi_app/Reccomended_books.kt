@@ -16,7 +16,6 @@ class Reccomended_books : AppCompatActivity() {
         binding=ActivityReccomendedBooksBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_reccomended_books)
 
-
         val button3 = findViewById<TextView>(R.id.btSelect)
         button3.setOnClickListener {
             val intent = Intent(this,Topics::class.java)
@@ -37,6 +36,5 @@ class Reccomended_books : AppCompatActivity() {
             val intent = Intent(this,Topics::class.java)
             startActivity(intent)
         }
-
         }
     }

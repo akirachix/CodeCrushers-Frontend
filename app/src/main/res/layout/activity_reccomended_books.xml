@@ -7,29 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".Reccomended_books">
 
-    <TextView
-        android:id="@+id/books"
-        android:layout_width="197dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="16dp"
-        android:text="Search...."
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="61dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/books"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/search" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="117dp"
@@ -44,14 +21,14 @@
         android:id="@+id/recommended"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="36dp"
         android:text="Recommended Books"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/books" />
+        app:layout_constraintEnd_toEndOf="@+id/textInputEditText6"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -120,9 +97,32 @@
         android:id="@+id/imageView6"
         android:layout_width="112dp"
         android:layout_height="180dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/recommended"
         app:srcCompat="@drawable/cre" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="53dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText6"
+        android:layout_width="254dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="84dp"
+        android:hint="Search"
+        app:layout_constraintBottom_toTopOf="@+id/recommended"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
 </androidx.constraintlayout.widget.ConstraintLayout>

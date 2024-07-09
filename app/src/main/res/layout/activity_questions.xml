@@ -7,180 +7,167 @@
     android:layout_height="wrap_content"
     tools:context=".Questions">
 
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText5"
+        android:layout_width="388dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="15dp"
+        android:hint="answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qu5" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText3"
+        android:layout_width="388dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:hint="answer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qu3" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="180dp"
-        android:text="questions"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="39dp"
+        android:text="Questions"
         android:textColor="@color/black"
         android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/qu1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/qu1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="52dp"
-        android:text="1.what does photosynthesis mean?"
+        android:layout_width="395dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:text="1.What does photosynthesis mean?"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/time" />
 
     <TextView
         android:id="@+id/qu2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="40dp"
-        android:text="2.what is germination?"
+        android:layout_width="396dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="8dp"
+        android:text="2.What is germination?"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/qu1" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText" />
 
     <Button
         android:id="@+id/btSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="151dp"
-        android:layout_marginTop="92dp"
-        android:layout_marginEnd="168dp"
-        android:text="submit"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="159dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/qu5" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText5" />
 
     <TextView
         android:id="@+id/qu3"
-        android:layout_width="282dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginBottom="32dp"
-        android:text="3.what do plant provide?"
+        android:layout_width="389dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="3.What do plant provide?"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/qu4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/qu2" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText2" />
 
     <TextView
         android:id="@+id/qu4"
-        android:layout_width="385dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="46dp"
-        android:text="4.what are the basic requirment for germination?"
+        android:layout_width="388dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="9dp"
+        android:text="4.What are the basic requirment for germination?"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/qu5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/qu3" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText3" />
 
     <TextView
         android:id="@+id/qu5"
-        android:layout_width="380dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="395dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
         android:text="5.Name five things neccessary for plant growth?"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/qu4" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText4" />
 
     <TextView
         android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="53dp"
         android:text="Time:2hours"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:id="@+id/textInputEditText4"
+        android:layout_width="388dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
         android:hint="answer"
-        app:layout_constraintEnd_toEndOf="@+id/qu3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/qu3"
-        app:layout_constraintTop_toBottomOf="@+id/qu3" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:hint="answer"
-        app:layout_constraintEnd_toEndOf="@+id/qu5"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/qu5"
-        app:layout_constraintTop_toBottomOf="@+id/qu5" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="38dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="322dp">
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="answer"
-        app:layout_constraintBottom_toTopOf="@+id/qu5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/qu4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/qu4" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="362dp"
-        android:layout_height="49dp"
-        app:layout_constraintBottom_toTopOf="@+id/qu2"
-        app:layout_constraintEnd_toEndOf="@+id/qu1"
-        app:layout_constraintStart_toStartOf="@+id/qu1"
-        app:layout_constraintTop_toBottomOf="@+id/qu1"
-        app:layout_constraintVertical_bias="1.0">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="388dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp"
+        android:hint="answer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qu1" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="343dp"
-            android:layout_height="49dp"
-            android:hint="answer" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="371dp"
-        android:layout_height="60dp"
-        app:layout_constraintBottom_toTopOf="@+id/qu3"
-        app:layout_constraintStart_toStartOf="@+id/qu2"
-        app:layout_constraintTop_toBottomOf="@+id/qu2">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="answer" />
-    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText2"
+        android:layout_width="388dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:hint="answer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qu2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

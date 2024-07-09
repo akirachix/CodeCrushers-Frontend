@@ -22,8 +22,5 @@ class Waiting_Session : AppCompatActivity() {
             val intent = Intent(this,Questions::class.java)
             startActivity(intent)
         }
-
-
-
     }
 }
