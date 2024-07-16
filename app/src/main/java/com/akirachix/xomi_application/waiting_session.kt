@@ -1,20 +1,28 @@
-package com.akirachix.xomi_application
+package com.akirachix.xomi_app
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.akirachix.xomi_application.R
+//import com.akirachix.xomi_app.databinding.ActivityReccomendedBooksBinding
+//import com.akirachix.xomi_app.databinding.ActivityWaitingSessionBinding
+import com.akirachix.xomi_application.databinding.ActivityWaitingSessionBinding
 
-class waiting_session : AppCompatActivity() {
+class Waiting_Session : AppCompatActivity() {
+    lateinit var binding: ActivityWaitingSessionBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        binding=ActivityWaitingSessionBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_waiting_session)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val button = findViewById<TextView>(R.id.btEnd)
+        button.setOnClickListener {
+            val intent = Intent(this,Waiting_Session::class.java)
+            startActivity(intent)
         }
     }
 }
